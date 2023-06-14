@@ -41,6 +41,22 @@ for (
 console.log(reversedName);
 
 // 3.3
+
+/*can use loop but it's a bit longer, anyway here it is the loop version
+for (let i = 0; i < 1; i++) {
+    
+    let i = hacker1.localeCompare(hacker2)
+    
+      if (i < 0) {
+      console.log(`The driver's name goes first.`);
+    } else if (i > 0) {
+      console.log(`Yo, the navigator goes first, definitely.`);
+    } else {
+      console.log(`What? You both have the same name?`);
+    }
+  }
+  */
+
 let result = hacker1.localeCompare(hacker2);
 if (result < 0) {
   console.log(`The driver's name goes first.`);
