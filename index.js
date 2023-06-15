@@ -15,7 +15,9 @@ if (hacker1.length > hacker2.length) {
     `The navigator has the longes name, it has ${hacker2.length} characters`
   );
 } else {
-  console.log(`Wow, you both have equally long names ${hacker1.length} `);
+  console.log(
+    `Wow, you both have equally long names ${hacker1.length} characters! `
+  );
 }
 // Iteration 3: Loops
 let formattedName = "";
